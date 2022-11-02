@@ -1,0 +1,70 @@
+.wraper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+}
+body{
+	background-color: grey;
+}
+.header{
+	margin-bottom: 50px;
+	padding: 10px 0 10px 70px;
+}
+.example div {
+	height: 200px;
+	width: 200px;
+	border-radius: 20px;
+	text-align: center;
+	margin: 0 0 50px 50px ;
+	transition: all 0.5s ease 0s;
+}
+.example__translate {
+	background-color: coral;
+}
+.example__translate.example__translate:hover {
+	transform: translate(100px, 100px);
+}
+.example__scale {
+	background-color: brown;
+}
+.example__scale:hover{
+	transform: scale(1.5);
+}
+.example__rotate {
+	background-color: royalblue;
+}
+.example__rotate:hover{
+	transform: rotate(80deg);
+}
+.example__skew {
+	background-color: darkorchid;
+}
+.example__skew:hover{
+	transform: skew(20deg, 30deg);
+}
+.example__transform-origin {
+	background-color: deepskyblue;
+}
+.example__transform-origin:hover{
+	transform-origin: 200px 0;
+	transform: rotate(-35deg);
+}
+.example__perspective {
+	background-color: gold;
+	perspective-origin: center;
+}
+.example__perspective:hover{
+	transform: perspective(100px) rotateX(30deg);
+}
+.example__transform3d {
+	background-color: burlywood;
+}
+.example__transform3d:hover{
+	transform: translate3d(30px, 30px, -100px);
+}
+.example__rotate3d {
+	background-color: darkgreen;
+}
+.example__rotate3d:hover{
+	transform: rotate3d(1,1,1, 45deg);
+}
